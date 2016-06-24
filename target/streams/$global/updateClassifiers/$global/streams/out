@@ -1,0 +1,285 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang:scala-library:(2.10.6, 2.10.5)
+[debug] :: resolving dependencies :: default#searchengine$sources_2.10;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->default(compile)]
+[info] Resolving com.github.tototoshi#scala-csv_2.10;1.3.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a94a90b
+[debug] sbt-chain: module revision found in cache: com.github.tototoshi#scala-csv_2.10;1.3.3
+[debug] 	found com.github.tototoshi#scala-csv_2.10;1.3.3 in sbt-chain
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d7eba5a
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6
+[debug] 	found org.scala-lang#scala-library;2.10.6 in sbt-chain
+[debug] 	[2.10.6] org.scala-lang#scala-library;2.10.6
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile-internal->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile-internal->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile-internal->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime-internal->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime-internal->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime-internal->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [compile->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [runtime->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->master]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test-internal->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test-internal->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test-internal->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->com.github.tototoshi#scala-csv_2.10;1.3.3 [test-internal->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#searchengine$sources_2.10;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.5 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.5
+[debug] 	found org.scala-lang#scala-compiler;2.10.5 in sbt-chain
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.5 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5
+[debug] 	found org.scala-lang#scala-library;2.10.5 in sbt-chain
+[debug] 	[2.10.5] org.scala-lang#scala-library;2.10.5
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.5 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.5 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.5
+[debug] 	found org.scala-lang#scala-reflect;2.10.5 in sbt-chain
+[debug] 	[2.10.5] org.scala-lang#scala-reflect;2.10.5
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.5 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#jline;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.5 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.5
+[debug] 	found org.scala-lang#jline;2.10.5 in sbt-chain
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)]
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->compile]
+[debug] == resolving dependencies default#searchengine$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 		tried /Users/a14188/.ivy2/local/com.github.tototoshi/scala-csv_2.10/1.3.3/srcs/scala-csv_2.10-sources.jar
+[debug] 	[NOT REQUIRED] com.github.tototoshi#scala-csv_2.10;1.3.3!scala-csv_2.10.jar
+[debug] 		tried https://jcenter.bintray.com/com/github/tototoshi/scala-csv_2.10/1.3.3/scala-csv_2.10-1.3.3-sources.jar
+[info] downloading https://jcenter.bintray.com/com/github/tototoshi/scala-csv_2.10/1.3.3/scala-csv_2.10-1.3.3-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/tototoshi/scala-csv_2.10/1.3.3/scala-csv_2.10-1.3.3-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/tototoshi/scala-csv_2.10/1.3.3/scala-csv_2.10-1.3.3-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/github/tototoshi/scala-csv_2.10/1.3.3/scala-csv_2.10-1.3.3-sources.jar
+[info] 	[SUCCESSFUL ] com.github.tototoshi#scala-csv_2.10;1.3.3!scala-csv_2.10.jar(src) (5194ms)
+[debug] 		tried /Users/a14188/.ivy2/local/org.scala-lang/scala-library/2.10.6/srcs/scala-library-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.6!scala-library.jar(src) (1535ms)
+[debug] 		tried /Users/a14188/.ivy2/local/org.scala-lang/scala-compiler/2.10.5/srcs/scala-compiler-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar(src) (1381ms)
+[debug] 		tried /Users/a14188/.ivy2/local/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.5!scala-library.jar(src) (1318ms)
+[debug] 		tried /Users/a14188/.ivy2/local/org.scala-lang/scala-reflect/2.10.5/srcs/scala-reflect-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar(src) (1211ms)
+[debug] 		tried /Users/a14188/.ivy2/local/org.scala-lang/jline/2.10.5/srcs/jline-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/jline/2.10.5/jline-2.10.5-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/jline/2.10.5/jline-2.10.5-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/jline/2.10.5/jline-2.10.5-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/jline/2.10.5/jline-2.10.5-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/jline/2.10.5/jline-2.10.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#jline;2.10.5!jline.jar(src) (1097ms)
+[debug] 		tried /Users/a14188/.ivy2/local/org.fusesource.jansi/jansi/1.4/srcs/jansi-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
+[info] downloading https://jcenter.bintray.com/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
+[info] 	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.4!jansi.jar(src) (784ms)
+[debug] :: resolution report :: resolve 160ms :: artifacts dl 12556ms
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT compile produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-compile.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT runtime produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-runtime.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT test produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-test.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT provided produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-provided.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT optional produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-optional.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT compile-internal produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-compile-internal.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-runtime-internal.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT test-internal produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-test-internal.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT plugin produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-plugin.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT sources produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-sources.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT docs produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-docs.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT pom produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-pom.xml
+[debug] 	report for default#searchengine$sources_2.10;0.1-SNAPSHOT scala-tool produced in /Users/a14188/practice/scala/searchengine/target/resolution-cache/reports/default-searchengine$sources_2.10-scala-tool.xml
+[debug] 	resolve done (160ms resolve - 12556ms download)

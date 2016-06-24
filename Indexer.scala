@@ -10,10 +10,10 @@ object Indexer{
     case (map, (word, entry)) => map + (word -> (map.getOrElse(word, Nil) :+ entry))
   }
   private def getInvertedIndexEntryMap(target: Searchable): Seq[(String, InvertedIndexEntry)] =
-      target.textTf.foldLeft(Seq.empty[(String, InvertedIndexEntry)]) {
-    case (seq, (word, tfValue)) => seq :+ (word -> new InvertedIndexEntry(target.id, tfValue))
+      target.words.foldLeft(Seq.empty[(String, InvertedIndexEntry)]) {
+    case (seq, word) => seq :+ (word -> new InvertedIndexEntry(target.id, target.titleTf(word), target.textTf(word)))
   }
 
 }
 
-class InvertedIndexEntry(val id: Int, val textTf: Int)
+class InvertedIndexEntry(val id: Int, val titleTf: Int, val textTf: Int)
