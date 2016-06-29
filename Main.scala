@@ -1,14 +1,18 @@
 import file.FileManager
-import nlp.Parser
-import searchable._
+import search._
+import index.Indexer
 
 object Main {
   def main(args: Array[String]):Unit = {
 
-    val fileManager = new FileManager
-    val emailStrings = fileManager.readEmail("./data/mail1.csv")
+    val emailStrings = FileManager.readEmail("./data/mail1.csv")
     val emails = emailStrings.map(emailString => new Email(emailString(0), emailString(5)))
 
-    emails.foreach(email => println(email.title))
+    emails.foreach(email => println(email.title +  ": " + email.text))
+
+    val invertedIndex = Indexer.indexing(emails)
+    println("-- Inverted Index")
+    println(invertedIndex)
+
   }
 }

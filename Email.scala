@@ -1,4 +1,4 @@
-package searchable
+package search
 
 import nlp.Parser
 
@@ -16,4 +16,5 @@ class Email(val title: String, val text: String) extends Searchable{
   val titleTf = getTf(title)
   val textTf = getTf(text)
   val words = titleTf.map(_._1).toSet ++ textTf.map(_._1).toSet
+  override def toString = title
 }
